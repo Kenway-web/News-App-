@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyNewsApp"
         tools:targetApi="31">
         <activity
+            android:name=".ui.topheadlines.TopHeadlineActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
